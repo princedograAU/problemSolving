@@ -1,0 +1,20 @@
+{
+  "name": "ds_with_js",
+  "version": "1.0.0",
+  "description": "Data Structures with JS",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "babel-node index.js",
+    "test": "jest"
+  },
+  "author": "Prince Dogra",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "jest": "^26.4.2",
+    "live-server": "^1.2.1"
+  }
+}
