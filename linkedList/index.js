@@ -1,4 +1,4 @@
-import Node from '../Node';
+import {Node} from '../Node';
 
 // =====================================================================
 //                  N O D E - I M P L E M E N T A T I O N

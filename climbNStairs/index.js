@@ -18,9 +18,8 @@ export default steps => {
         // If its is not filled with zero the it will return NaN for each value of the array
         let ways = new Array(level+1).fill(0);
         ways[0] = 1;
-        ways[1] = 1;
 
-        for (let i = 2; i <= level; i++) {
+        for (let i = 1; i <= level; i++) {
             for (let j = 1; j <= steps; j++) {
                 if (i - j >= 0) {
                     ways[i] += ways[i - j];
